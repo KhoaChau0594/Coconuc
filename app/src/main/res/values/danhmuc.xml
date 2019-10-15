@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theThao">Thể Thao - Dã Ngoại</string>
+    <string name="dienAnh">Máy Ảnh - Máy Quay Phim</string>
+    <string name="laptopPC">Laptop - Máy Vi Tính - Linh Kiện</string>
+    <string name="sach">Nhà Sách Tiki</string>
+    <string name="vanChuyen">Ô Tô - Xe Máy - Xe Đạp</string>
+    <string name="voucher">Voucher - Dịch vụ</string>
+    <string name="bachHoa">Bách Hóa Online</string>
+</resources>
