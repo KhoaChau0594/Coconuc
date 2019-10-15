@@ -24,8 +24,8 @@ public class HomeFragmentRecyclerViewAdapter extends RecyclerView.Adapter<HomeFr
     private static final String TAG = "HomeFragment_RecyclerViewAdapter";
 
     //attributes
-    private ArrayList<String> mCategories = new ArrayList<>();
-    private ArrayList<String> mCategoryImageUrls = new ArrayList<>();
+    private ArrayList<String> mCategories;
+    private ArrayList<String> mCategoryImageUrls;
     private Context mContext;
 
     public HomeFragmentRecyclerViewAdapter(Context context,ArrayList<String> mCategories, ArrayList<String> mCategoryImageUrls){

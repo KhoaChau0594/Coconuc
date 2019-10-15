@@ -20,7 +20,7 @@ import viewAdapter.HomeFragmentRecyclerViewAdapter;
 
 
 public class HomeFragment extends Fragment {
-    public static final String TAG = "HomeFragment";
+    private static final String TAG = "HomeFragment";
     private ArrayList<String> mCategories = new ArrayList<>();
     private ArrayList<String> mCategoryImageUrls = new ArrayList<>();
 
@@ -36,7 +36,7 @@ public class HomeFragment extends Fragment {
 
         getImage();
 
-        mRecyclerView = (RecyclerView) view.findViewById(R.id.rvCategory);
+        mRecyclerView = view.findViewById(R.id.rvCategory);
         mLayoutManager = new LinearLayoutManager(this.getActivity(), LinearLayoutManager.HORIZONTAL, false);
 
         Log.d("debugMode", "The application stopped after this");
